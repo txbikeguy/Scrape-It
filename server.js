@@ -17,6 +17,16 @@ var PORT = process.env.PORT || 3000;
 // Initialize Express
 var app = express();
 
+var exphbs = require("express-handlebars");
+
+app.engine("handlebars", exphbs({ defaultLayout: "main" }));
+app.set("view engine", "handlebars");
+app.get('/', function (req, res) {
+  res.render('index');
+});
+
+var routes = require("./routes/index.js");
+
 // Use morgan logger for logging requests
 app.use(logger("dev"));
 // Use body-parser for handling form submissions

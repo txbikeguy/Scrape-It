@@ -95,3 +95,4 @@ app.get("/scrape", function(req, res) {
       });
   });
   
+module.exports = app;
