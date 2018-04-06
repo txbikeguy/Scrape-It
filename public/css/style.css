@@ -1,30 +1,41 @@
-body { background-color: #F2F6D0 }
-      #wrapper {
-        width: 960px;
-        margin-left: auto;
-        margin-right: auto;
-        padding-top: 5%;
-      }
-      #articles {
-        display: inline-block;
-        overflow: auto;
-        width: 60%;
-        height: 700px;
-      }
-      #notes {
-        float: right;
-        width: 30%;
-      }
-      textarea, input {
-        display: block;
-        width: 100%;
-        background-color: #FCF5C7;
-      }
-      input {
-        height: 36px;
-        font-size: 24px;
-      }
-      textarea {
-        height: 200px;
-        font-size: 18px;
-      }
+@font-face {
+  font-family: "logo";
+  src: url("Cantarell-Bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-image: url("../images/newstand.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
+  background-position-x: right;
+  background-color: #d7ccc8;
+}
+
+
+.container {
+  margin-left: 5rem;
+}
+    
+
+.brand-logo {
+  font-family: "logo", sans-serif;
+}
+
+.material-icons {
+  font-size: 1rem;
+  color: #4e342e;
+}
+
+.card-title {
+  padding: 1rem;
+  font-size: 12px;
+  color: #bcaaa4;
+}
+
+/* #save-btn {
+  color: #4e342e;
+  float: right;
+} */

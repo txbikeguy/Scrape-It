@@ -1,6 +1,6 @@
-// Exporting an object containing all of our models
+// Exporting an object containing all of our routes
 
 module.exports = {
-  Api: require("./api.js"),
-  View: require("./view.js")
+  Api: require("./api"),
+  View: require("./view")
 };
