@@ -29,7 +29,6 @@ app.get('/', function (req, res) {
   res.render('index');
 });
 
-
 // Use morgan logger for logging requests
 app.use(logger("dev"));
 // Use body-parser for handling form submissions

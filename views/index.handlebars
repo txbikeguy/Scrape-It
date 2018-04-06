@@ -1,22 +1,22 @@
 <div class="navbar-fixed">
   <nav>
-    <div class="nav-wrapper brown darken-3">
-      <a href="#" class="brand-logo">Crypto Scraper</a>
+    <div class="nav-wrapper">
+      <a href="/" class="brand-logo">Crypto News Scraper</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li>
-          <a href="/scrape">Scrape new articles!</a>
+          <a class href="/scrape">Scrape new articles!</a>
         </li>
       </ul>
   </nav>
   </div>
 
-  <div class="container">
-    <div id="articles">
+  <div class="container center-align">
+    <div id="articles" class="center-align">
       {{#each headline}}
-      <div class="card {{this.id}}" style="width: 50rem;">
-        <div class="card-body pink lighten-5" id="card">
+      <div class="card darken-3 {{this.id}}">
+        <div class="" id="card">
           <a href="{{this.link}}" class="card-link" target="_blank">
-            <h5 class="card-title brown darken-1 ">{{this.title}}</h5>
+            <h5 class="card-title">{{this.title}}</h5>
           </a>
         </div>
       </div>

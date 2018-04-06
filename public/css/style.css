@@ -3,31 +3,30 @@ body {
   background-attachment: fixed;
   background-size: contain;
   background-position-x: right;
-  background-color: #d7ccc8;
-}
-
-
-.container {
-  margin-left: 5rem;
+  background-color: #8fc1e3;
 }
     
 
 .brand-logo {
   font-family: "logo", sans-serif;
+  color: #f2f2f2 !important;
 }
 
 .material-icons {
   font-size: 1rem;
-  color: #4e342e;
 }
 
 .card-title {
   padding: 1rem;
   font-size: 12px;
-  color: #bcaaa4;
+  color: #182628;
+  font-weight: 500 !important;
 }
 
-/* #save-btn {
-  color: #4e342e;
-  float: right;
-} */
+.card {
+  background-color: #f2f2f2
+}
+
+nav {
+  background-color: #303c6c !important
+}

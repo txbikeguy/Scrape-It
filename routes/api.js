@@ -35,7 +35,7 @@ app.get("/scrape", function(req, res) {
       db.Headline.create(result)
         .then(function(dbHeadline) {
           // View the added result in the console
-          console.log(dbHeadline);
+          // console.log(dbHeadline);
         })
         .catch(function(err) {
           // If an error occurred, send it to the client
@@ -44,7 +44,7 @@ app.get("/scrape", function(req, res) {
     });
 
     // If we were able to successfully scrape and save an Article, send a message to the client
-    res.send("Scrape Complete");
+    res.redirect("/");
   });
 });
 
