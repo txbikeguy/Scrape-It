@@ -1,3 +1,5 @@
+var mongoose = require("mongoose");
+
 // Exporting an object containing all of our models
 
 module.exports = {
